@@ -1,0 +1,8 @@
+public class Human {
+   int age=20;
+   public static void main (String [] args){ //ошибка
+   Human human = new Human ();
+   System.out.println(human.getAge());}  //ошибка
+   
+   int getAge(){
+   return age;}
